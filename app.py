@@ -97,8 +97,20 @@ params = {
     "passenger_count": passenger_count
 }
 
-url = 'https://taxifare-qn6uulpndq-ew.a.run.app/predict'
 
+st.markdown("""
+    <div style='text-align: center; font-size: 2em; animation: bounce 1s infinite;'>
+        👇
+    </div>
+    <style>
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(10px); }
+        }
+    </style>
+""", unsafe_allow_html=True)
+
+url = 'https://taxifare-qn6uulpndq-ew.a.run.app/predict'
 if st.button("Predict fare 🚀"):
     response = requests.get(url, params=params)
 
