@@ -9,7 +9,7 @@ import random
 
 
 '''
-# 🚕 TaxiFare Predictor
+# 🚕 NYC TaxiFare Predictor
 '''
 
 NYC_BOUNDS = {
