@@ -99,7 +99,7 @@ params = {
 
 
 st.markdown("""
-    <div style='text-align: center; font-size: 2em; animation: bounce 1s infinite;'>
+    <div style='text-align: left; font-size: 2em; animation: bounce 1s infinite;'>
         👇
     </div>
     <style>
