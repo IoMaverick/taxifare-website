@@ -112,3 +112,6 @@ if st.button("Predict fare 🚀"):
         st.error("API error — check your URL or parameters")
         st.write(response.status_code)
         st.write(response.text)
+
+st.markdown("---")
+st.markdown("Made with ❤️ by **IoMaverick**")
